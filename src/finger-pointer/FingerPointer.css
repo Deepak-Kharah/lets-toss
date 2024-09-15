@@ -1,0 +1,12 @@
+li.finger-pointer {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+
+  --finger-pointer-size: 6rem;
+  position: position;
+  height: var(--finger-pointer-size);
+  width: var(--finger-pointer-size);
+  border-radius: 50%;
+  border: 7px double whitesmoke;
+}
