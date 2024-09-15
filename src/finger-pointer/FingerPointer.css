@@ -1,12 +1,45 @@
+@property --hello {
+  syntax: "<length>";
+  inherits: false;
+  initial-value: 100rem;
+}
+
 li.finger-pointer {
   list-style-type: none;
   margin: 0;
   padding: 0;
 
-  --finger-pointer-size: 6rem;
-  position: position;
+  --finger-pointer-size: 5rem;
+  position: absolute;
   height: var(--finger-pointer-size);
   width: var(--finger-pointer-size);
   border-radius: 50%;
-  border: 7px double whitesmoke;
+  border: 10px double whitesmoke;
 }
+
+section.touch-area.only-one-finger li.finger-pointer {
+  background-color: #422006;
+  border-color: #fde047;
+}
+
+section.touch-area.tossed li.finger-pointer {
+  background-color: #052e16;
+  border-color: #4ade80;
+  --hello: 0rem;
+  box-shadow: 0 0 0 var(--hello) #1d4ed8;
+
+  transition: all 0.5s;
+
+  @starting-style {
+    --hello: max(100vw, 100vh);
+  }
+}
+
+section.touch-area.enough-fingers li.finger-pointer {
+  background-color: #06112e;
+  border-color: #1d4ed8;
+}
+
+/* li.finger-pointer.winner-finger {
+  border: 10px double gold;
+} */
