@@ -17,7 +17,7 @@ import { canVibrate } from "../Navbar/Navbar";
 const { tapEventHandler } = tapDetector();
 
 function TouchArea() {
-  let fingerHoldDurationRef: number | null = null;
+  let fingerHoldDurationRef: NodeJS.Timeout | null = null;
   let touchArea!: HTMLDivElement;
 
   function endToss() {
