@@ -42,13 +42,28 @@
     content="An interactive web app that lets users place fingers on the screen and randomly selects one for quick and fair decisions." />
   <meta property="twitter:image" content="https://metatags.io/images/meta-tags.png" />
 
+  <script>
+    partytown = {
+      forward: ['dataLayer.push']
+    };
+  </script>
 
+  <script src="/~partytown/debug/partytown.js"></script>
+  <script type="text/partytown" src="https://www.googletagmanager.com/gtag/js?id=G-7N3SW57209"></script>
+  <script type="text/partytown">
+      window.dataLayer = window.dataLayer || [];
+      window.gtag = function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-7N3SW57209');
+    </script>
 
 </head>
 
 <body>
   <main id="root"></main>
   <script type="module" src="/src/index.tsx"></script>
+
 </body>
 
 </html>
