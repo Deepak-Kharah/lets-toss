@@ -1,28 +1,39 @@
+# Let's toss
+
+![Let's toss](public/og-card.png)
+
+
+An interactive web app that lets users place fingers on the screen and randomly selects one for quick and fair decisions.
+
+## Features
+
+- Easy to use: Simply place your finger on the screen and let the app do the rest.
+- Random selection: The app uses a random algorithm (`Math.random()`  😜) to ensure fair and unbiased results.
+- Quick decisions: Get instant results without any delays.
+- Web-based: Access the app from any device with a web browser.
+
+
+## Getting Started
+
+To get started with the Toss App, follow these steps:
+
+1. Visit the app's website at [https://lets-toss.vercel.app](https://lets-toss.vercel.app).
+2. Place your finger on the screen.
+3. Wait for the app to randomly select a finger.
+4. Receive the result and make your decision based on it.
+
 ## Usage
 
-```bash
-$ npm install # or pnpm install or yarn install
-```
+The Toss App can be used in various scenarios, including:
 
-### Learn more on the [Solid Website](https://solidjs.com) and come chat with us on our [Discord](https://discord.com/invite/solidjs)
+- Settling disputes: Use the app to determine who goes first or who gets the last slice of pizza.
+- Decision-making: Let the app make the tough choices for you, such as picking a restaurant or deciding on a movie to watch.
+- Random selection: Need to randomly select a winner for a giveaway or a raffle? The Toss App has got you covered.
 
-## Available Scripts
+## Contributing
 
-In the project directory, you can run:
+Contributions are welcome! If you have any ideas, suggestions, or bug reports, please open an issue on the [GitHub repository](https://github.com/deepak-kharah/lets-toss).
 
-### `npm run dev`
+## License
 
-Runs the app in the development mode.<br>
-Open [http://localhost:5173](http://localhost:5173) to view it in the browser.
-
-### `npm run build`
-
-Builds the app for production to the `dist` folder.<br>
-It correctly bundles Solid in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-## Deployment
-
-Learn more about deploying your application with the [documentations](https://vitejs.dev/guide/static-deploy.html)
+This project is licensed under the [MIT License](LICENSE).
