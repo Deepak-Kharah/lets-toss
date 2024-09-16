@@ -1,12 +1,16 @@
 section.touch-area {
   touch-action: none;
   flex: 1;
-  background-color: #3e3d4a;
+  background-color: #322f57;
   padding: 1rem;
   text-align: center;
   font-weight: 300;
   font-size: 1.5rem;
-  /* position: relative; */
+  overflow: hidden;
+}
+
+.on-screen-instruction {
+  color: #b5aeff;
 }
 
 section.touch-area.tossed {
@@ -26,5 +30,5 @@ section.touch-area.only-one-finger .on-screen-instruction {
 }
 
 section.touch-area.enough-fingers {
-  background-color: #1d4ed8;
+  background-color: #1b1b1d;
 }

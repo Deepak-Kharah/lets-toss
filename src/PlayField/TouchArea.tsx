@@ -100,7 +100,7 @@ function TouchArea() {
       id="touch-area"
     >
       <Show when={fingers().length === 0 && !hasTossed()}>
-        <p>Place fingers on the screen to toss</p>
+        <p class="on-screen-instruction">Place fingers on the screen to toss</p>
       </Show>
       <Show when={fingers().length === 1}>
         <p class="on-screen-instruction">One more finger to go</p>

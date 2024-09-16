@@ -1,4 +1,4 @@
-@property --hello {
+@property --whoosh-shadow {
   syntax: "<length>";
   inherits: false;
   initial-value: 100rem;
@@ -25,8 +25,8 @@ section.touch-area.only-one-finger li.finger-pointer {
 section.touch-area.tossed li.finger-pointer {
   background-color: #052e16;
   border-color: #4ade80;
-  --hello: 0rem;
-  box-shadow: 0 0 0 var(--hello) #1d4ed8;
+  --whoosh-shadow: 0rem;
+  box-shadow: 0 0 0 var(--whoosh-shadow) #1b1b1d;
 
   transition: all 0.5s;
 
@@ -36,10 +36,6 @@ section.touch-area.tossed li.finger-pointer {
 }
 
 section.touch-area.enough-fingers li.finger-pointer {
-  background-color: #06112e;
-  border-color: #1d4ed8;
+  background-color: #d2d8e9;
+  border-color: #1b1b1d;
 }
-
-/* li.finger-pointer.winner-finger {
-  border: 10px double gold;
-} */
